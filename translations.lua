@@ -4,38 +4,42 @@ _T = {
 
     -------------
     -- R  C  V --
-    -------------
+    ------------
 
-    notAllowed = "Du har inte tillstånd att använda detta kommando!",
+    ---------------------
+    -- SPAWN / DELETE  --
+    ---------------------
 
-    beenRepaired = "~g~Bilen har lagats",
-    closeToRepair = "~r~Du måste vara nära eller innuti en bil för att laga den!",
-    aliveToRepair = "~y~Du måste vara vid liv för att laga bilen!",
+    paramSuggestionName = "name",
+    paramSuggestionDesc = "the name of the car you'd like to spawn",
 
-    beenCleaned = "~b~Bilen har tvättats",
-    closeToClean = "~r~Du måste vara nära eller innuti en bil för att tvätta den!",
-    aliveToClean = "~y~Du måste vara vid liv för att tvätta den!",
+    notAllowed = "You do not have permission to execute this command.",
 
-    SuggestionRepair = "Lagar bilen du sitter i eller är närmast",
-    SuggestionClean = "Tvättar biolen du sitter i eller är närmast",
+    beenRepaired = "~g~Vehicle has been repaired",
+    closeToRepair = "~r~You have to be close to or in the vehicle to repair it!",
+    aliveToRepair = "~y~You have to be alive to repair the vehicle!",
+
+    beenCleaned = "~b~Vehicle has been cleaned",
+    closeToClean = "~r~You have to be close to or in the vehicle to clean it!",
+    aliveToClean = "~y~You have to be alive to clean the vehicle!",
+
+    SuggestionRepair = "Repairs the vehicle you are sittig in or are close to",
+    SuggestionClean = "Cleans the vehicle you are sittig in or are close to",
 
     ---------------------
     -- SPAWN / DELETE  --
     ---------------------
     
-    vehDeleted = "~g~Bilen har raderats!",    
+    vehDeleted = "~g~Vehicle has been deleted!",    
+    SuggestionSpawnVeh = "Spawns the vehicle with the specified name.",
+    SuggestionDeleteVeh = "Deletes the vehicle you are sittig in or are close to.",
 
-    SuggestionSpawnVeh = "Spawnar bilen med det angivna spawnnamnet.",
-    SuggestionDeleteVeh = "Tar bort bilen du sitter i eller är närmast.",
-    paramSuggestionName = "namn",
-    paramSuggestionDesc = "namnet på bilen du vill spawna",
+    failedToDelete = "~r~Failed to delete the vehicle, retrying...",
+    failedToDeleteAfterRetries = "~r~Failed to delete the vehicle. Retries:",
+    closeToDelete = "~r~You have to be close to or in the vehicle to delete it!",
 
-    failedToDelete = "~r~Misslyckades med att radera bilen, försöker igen...",
-    failedToDeleteAfterRetries = "~r~Misslyckades att radera bilen. Försök:",
-    closeToDelete = "~r~Du måste vara nära eller innuti en bil för att radera den!",
-
-    noName = "~r~Du måste ange spawnnamnet på bilen du vill spawna!",
-    dontExist = "~r~Bilen med det spawnnamn du angav finns inte!",
-    frontSeat = "~r~Du måste vara i framsätet på bilen för att radera den!"
+    noName = "~r~You have to enter the name of the vehicle you want to spawn!",
+    dontExist = "~r~The vehicle name you entered does not exist!",
+    frontSeat = "~r~You have to be in the front seat to delete the vehicle."
 
 }

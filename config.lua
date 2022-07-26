@@ -1,6 +1,6 @@
 Config = {
     allowed = {
-        'steam:11000014d964d3b'
+        'steam:11000010a101b0c'
     },
 
     everyoneAllowedFix = false
