@@ -22,10 +22,10 @@ RegisterCommand("fix", function(source)
     end
 end)
     
-local allowedToFix = Config.allowed
+local areAllowed = Config.allowed
 function isAllowed(player)
     local allowed = false
-    for i,id in ipairs(allowedToFix) do
+    for i,id in ipairs(areAllowed) do
         for x,pid in ipairs(GetPlayerIdentifiers(player)) do
             if string.lower(pid) == string.lower(id) then
                 allowed = true
