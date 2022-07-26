@@ -1,17 +1,41 @@
 _T = {
-    -- All the messages and notifications, translate them into your liking here.
-    -- You can add colors by doing ~~ and ex. g inbetween.
 
-    notAllowed = "You do not have permission to execute this command.",
+    -- All configurable messages that are sent to the player you can change here.
 
-    beenRepaired = "~g~Your car has been repaired",
-    closeToRepair = "~r~You have to be close or in your vehicle to repair it!",
-    aliveToRepair = "~y~You have to be alive to repair it!",
+    -------------
+    -- R  C  V --
+    -------------
 
-    beenCleaned = "~b~Your car has been cleaned",
-    closeToClean = "~r~You have to be close or in your vehicle to clean it!",
-    aliveToClean = "~y~You have to be alive to clean it!",
+    notAllowed = "Du har inte tillstånd att använda detta kommando!",
 
-    SuggestionRepair = "Repairs the car you are sittig in or close to",
-    SuggestionClean = "Cleans the car you are sittig in or close to",
+    beenRepaired = "~g~Bilen har lagats",
+    closeToRepair = "~r~Du måste vara nära eller innuti en bil för att laga den!",
+    aliveToRepair = "~y~Du måste vara vid liv för att laga bilen!",
+
+    beenCleaned = "~b~Bilen har tvättats",
+    closeToClean = "~r~Du måste vara nära eller innuti en bil för att tvätta den!",
+    aliveToClean = "~y~Du måste vara vid liv för att tvätta den!",
+
+    SuggestionRepair = "Lagar bilen du sitter i eller är närmast",
+    SuggestionClean = "Tvättar biolen du sitter i eller är närmast",
+
+    ---------------------
+    -- SPAWN / DELETE  --
+    ---------------------
+    
+    vehDeleted = "~g~Bilen har raderats!",    
+
+    SuggestionSpawnVeh = "Spawnar bilen med det angivna spawnnamnet.",
+    SuggestionDeleteVeh = "Tar bort bilen du sitter i eller är närmast.",
+    paramSuggestionName = "namn",
+    paramSuggestionDesc = "namnet på bilen du vill spawna",
+
+    failedToDelete = "~r~Misslyckades med att radera bilen, försöker igen...",
+    failedToDeleteAfterRetries = "~r~Misslyckades att radera bilen. Försök:",
+    closeToDelete = "~r~Du måste vara nära eller innuti en bil för att radera den!",
+
+    noName = "~r~Du måste ange spawnnamnet på bilen du vill spawna!",
+    dontExist = "~r~Bilen med det spawnnamn du angav finns inte!",
+    frontSeat = "~r~Du måste vara i framsätet på bilen för att radera den!"
+
 }
