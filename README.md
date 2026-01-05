@@ -22,7 +22,7 @@ There's 5 commands, repair, clean and fix.
 
 ### Installation
 
-1. Download the resource, put it in either your root directory or perhaps a "script" directory, your choice
+1. Download the resource, put it in either your root resources directory or perhaps a [script] directory inside resources, your choice. 
 2. Change the name to HV and ensure/start it from the server.cfg.
 3. Edit the config and translations to your liking, and restart the server.
 4. Enjoy!
